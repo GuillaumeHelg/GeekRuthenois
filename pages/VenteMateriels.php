@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <HTML lang="fr">
-	<HEAD>
+	<head>
 		<meta charset="utf-8" />
-		<TITLE>Le Geek Ruthénois - Matériels</TITLE>
-		<META NAME="Description" CONTENT="Le Geek Ruthénois - Magasin d'informatique à Rodez">
+		<title>Le Geek Ruthénois - Matériels</title>
+		<meta name="Description" content="Le Geek Ruthénois - Magasin d'informatique à Rodez">
 		
 		<!-- Lien vers mon CSS -->
-		<link href="./css/monStyle.css" rel="stylesheet">
+		<link href="../css/monStyle.css" rel="stylesheet">
 		
 		<!-- Bootstrap CSS -->
-		<link href="./bootstrap/css/bootstrap.css" rel="stylesheet">	
-		<link href="./font-awesome/css/font-awesome.css" rel="stylesheet">				
-	</HEAD>
-	<BODY>
+		<link href="../bootstrap/css/bootstrap.css" rel="stylesheet">	
+		<link href="../font-awesome/css/font-awesome.css" rel="stylesheet">				
+</head>
+	<body>
 	<?php
 		$host = 'localhost';
 		$port = '3306';
@@ -39,7 +39,7 @@
 			<!-- Entete du site Logo + slogan -->
 			<div class="row">
 				<div class="col-xs-12 col-md-3  entete"> <!-- Colonne Logo -->
-					<a href="pages/index.html" Title="Page d'accueil du site" Alt="Le Geek Ruthénois"><img src="./images/LeGeekRuthenois.png" alt="Logo Le Geek Ruthénois" title="Logo Le Geek Ruthénois" class="logo"></a>
+					<a href="../pages/index.html" Title="Page d'accueil du site" Alt="Le Geek Ruthénois"><img src="../images/LeGeekRuthenois.png" alt="Logo Le Geek Ruthénois" title="Logo Le Geek Ruthénois" class="logo"></a>
 				</div>
 				<div class="col-xs-12 col-md-9 entete sansCadre slogan"> <!-- Colonne Slogan -->
 					Votre magasin d'informatique à Rodez
@@ -91,7 +91,7 @@
 							    <div class="col-xs-12 col-sm-3 aligneHorizontal">
                                 <?php
                                 $image = $row['Image']; 
-                                $cheminImages = "images/";
+                                $cheminImages = "../images/";
                                 $reference = $row['ID'];
                                 echo '<img src="'.$cheminImages.$image.'" alt="'.$reference.'" title="'.$reference.'" class="tailleImagesProd" width="300px" >';
                                 ?>
@@ -129,5 +129,5 @@
 				</div>							
 			</div>			
 		</footer>		
-	</BODY>
-</HTML>
+	</body>
+</html>
