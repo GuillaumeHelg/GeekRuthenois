@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<HTML lang="fr">
+	<HEAD>
+		<meta charset="utf-8" />
+		<TITLE>Le Geek Ruthénois - Contact</TITLE>
+		<META NAME="Description" CONTENT="Le Geek Ruthénois - Magasin d'informatique à Rodez">
+		
+		<!-- Lien vers mon CSS -->
+		<link href="../css/monStyle.css" rel="stylesheet">
+		
+		<!-- Bootstrap CSS -->
+		<link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+		<link href="../font-awesome/css/font-awesome.css" rel="stylesheet">	
+	</HEAD>
+	<BODY>
+		<header class="container-fluid">
+			<!-- Entete du site Logo + slogan -->
+			<div class="row">
+				<div class="col-lg-2 entete"> <!-- Colonne Logo -->
+					<a href="../index.html" Title="Page d'accueil du site" Alt="Le Geek Ruthénois"><img src="../images/LeGeekRuthenois.png" alt="Logo Le Geek Ruthénois" title="Logo Le Geek Ruthénois" class="logo"></a>
+				</div>
+				<div class="col-lg-10 entete sansCadre slogan"> <!-- Colonne Slogan -->
+					Votre magasin d'informatique à Rodez
+				</div>
+			</div>
+		</header>
+		
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 cadreAvecBordure"> <!-- bordure du contenu -->
+					<div class="col-lg-12 aligneHorizontal "> <!-- titre de la page -->
+							<span class="titre"><span class="glyphicon glyphicon-envelope"></span> Nous contacter</span>
+						</div>
+					<div class="row cadreAvecBordure"> <!-- sous titre -->
+						<div class="col-lg-3 cadreAvecBordure aligneHorizontal"><br/><b>Adresse</b><br/>&nbsp;
+						<br/><b>Le Geek Ruthénois</b><br/>50 avenue de Bordeaux<br/>12000 Rodez<br/>05.65.77.10.80<br/><br/>
+						</div>
+						<div class="col-lg-9 cadreAvecBordure aligneHorizontal"><br/><b>Formulaire de contact<br/>&nbsp;</b>
+							<form method="post" action="">		<!-- formulaire de contact -->
+
+								<p>
+									<!-- Element nom du formulaire -->
+									<label for="element_1" >Nom :  </label>
+									<input id="element_1" name="element_1" type="text" maxlength="255" value="" class="form-control"/> 
+								</p>
+								<p>
+									<!-- Element prénom du formulaire -->
+									<label for="element_2">Prénom </label>
+									<input id="element_2" name="element_2" type="text" maxlength="255" value="" class="form-control"/> 
+								<p>
+								<p>
+									<!-- Element Société du formulaire -->
+									<label class="description" for="element_3">société </label>
+									<input id="element_3" name="element_3" class="element text medium form-control" type="text" maxlength="255" value=""/> 
+								</p>
+
+								<p>
+									<!-- Element chechbox du formulaire -->
+									<label class="description" for="element_5">Votre choix :</label></br>
+								</p>
+								<p>
+									<select id="select" class="form-control" id="element_5" name="element_5">
+										<option>Achat de matériel</option>
+										<option>Maintenance</option>
+										<option>Réparation</option>
+										</select>
+									</select>
+								</p>
+								<p>
+									<!-- Element E-mail  du formulaire -->
+									<label class="description" for="element_4">Email </label>
+									<input id="element_4" name="element_4" type="text" maxlength="255" value=" "class="form-control"/> 
+								</p>
+								<!-- Element bouton de validation du formulaire -->
+								<input id="saveForm" class="button_text" type="submit" name="submit" value="Envoyer" class="form-control" />
+							</form>
+						
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>		
+		
+		
+		
+		
+		<footer class="container-fluid cadreAvecBordure">
+			<!-- Pied de page -->
+			<div class="row aligneHorizontal">
+				<div class="col-lg-12">
+					<div class="row">
+						<div class="col-lg-12">
+							<div class="row">
+								<div class="col-lg-12 menu">
+									Menu : <a href="VenteMateriels.html" alt="Acceder à la page matériels"><span class="label label-primary"><span class="glyphicon glyphicon-phone"></span> Vente de matériels</span></a> 
+									<a href="NousContacter.html"><span class="label label-success"><span class="glyphicon glyphicon glyphicon-envelope"></span> Nous contacter</span></a>
+									<a href="MentionsLegales.html"><span class="label label-info"><span class="glyphicon glyphicon-list-alt"></span> Mentions légales</span></a>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-lg-12">
+									<span class="fa fa-cube fa-spin"></span> Le Geek Ruthénois - 50 avenue de Bordeaux - 12000 Rodez - 05.65.77.10.80 - <a href="mailto:info@iut-rodez.fr">info@iut-rodez.fr</a>
+								</div>
+							</div>							
+						</div>
+					</div>
+				</div>
+			</div>			
+		</footer>
+		
+	</BODY>
+</HTML>

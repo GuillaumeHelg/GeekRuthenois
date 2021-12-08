@@ -1,0 +1,150 @@
+body{
+	color:#585976;		/* Couleur de la police Gris foncé */
+
+}
+
+.titre {
+	/* Définition des titres (des pages) */
+	color:#AE3030;
+	font-size: 2em; 	/* Double de la police normale */
+	font-weight: bold;	/* En gras */
+}
+
+
+a{
+	color:#8C0404;		/* couleur des liens non visités */
+	text-decoration:underline;
+}
+
+a:visited { 
+	color: grey; 		/* couleur des liens  visités */
+}
+
+.entete{ /* Définition des propriétés de l'entete */
+	background-color: #B9B5B5;
+	height:210px;	/* On fixe la hauteur pour que le slogan ait le fond de la même couleur que l'image sur toute la hauteur sinon il y aurait du blanc derrière */
+	padding: 10px ;	/* Marge intérieure de 10 px pour que le logo ne soit pas collé en haut à gauche et que le slogan ne colle pas au logo */
+}
+@media (max-width: 1200px) {
+	/* Smartphones */
+	.entete{ /* Définition des propriétés de l'entete */
+		height:auto; 		/* On ne fixe plus la hauteur */
+		text-align:center;	/* On centre le tout */
+	}
+}
+
+.parent {
+  display: table-cell; /* comportement visuel de cellule */
+  vertical-align: middle;
+}
+
+.cadreAvecBordure{
+	border-style:double ; 		/* Bordure double */
+	border-width:5px;			/* Epaisseur bordure */
+	border-color:#585976;		/* Couleur de la bordure */
+	border-radius: 5px;			/* Arrondissement des angles */
+	background-color: #B9B5B5;	/* Couleur de fond */
+}
+
+.aligneHorizontal {
+	 text-align: center; /* Alignement horizontal centré */
+}
+
+.menu{ /*/ Réglage des propriétés pour le menu */
+
+	font-size: 1.3em; 	/* 3 fois la taille de la police normale */
+	color:#585976;		/* Couleur de la police Gris foncé */
+	font-weight: bold;	/* En gras */
+}
+
+#activites{
+	background-image:url("../images/depannageTransp.jpg"); 	/* Image de fond pour le cadre activités */
+	color:#303030;		/* Couleur de la police Gris foncé */
+	font-weight: bold;	/* En gras */
+	font-size: 1.2em; 	/* 3 fois la taille de la police normale */
+	min-height:235px;
+}
+
+#domaines{
+	background-image:url("../images/domainesTransp.jpg");	/* Image de fond pour le cadre domaines */
+	color:#303030;		/* Couleur de la police Gris foncé */
+	font-weight: bold;	/* En gras */
+	font-size: 1.2em; 	/* 3 fois la taille de la police normale */
+	min-height:235px;
+}
+
+#marques{
+	background-image:url("../images/Marques/fournisseursTransp.jpg");	/* Image de fond pour le cadre domaines */
+	min-height:470px;
+}
+
+#clients{
+	background-image:url("../images/clients/clientsTransp.jpg");	/* Image de fond pour le cadre domaines */
+	min-height:470px;
+}
+
+#produitMisEnAvant {
+	color:#F50505;
+	background-color:yellow;
+}
+
+.slogan{ /*/ Réglage des propriétés pour le slogan */
+
+	font-size: 3em; 	/* 3 fois la taille de la police normale */
+	color:#585976;		/* Couleur de la police Gris foncé */
+	font-weight: bold;	/* En gras */
+	padding: 50px ;		/* Marge intérieure 50 pixels */
+}
+
+.sansCadre{
+	border-width:0px;
+}
+
+.presentation{
+	font-size: 1.5em; 	/* 3 fois la taille de la police normale */
+}
+
+.titrePage{
+	font-size: 1.5em; 	/* 3 fois la taille de la police normale */
+	text-align=center;  /* Centrage du texte */
+}
+
+.textes {
+	padding: 20px;		/* Eloignement du bord du cadre */
+	text-align:justify;	/* texte justifié */
+}
+
+img:hover {
+	-webkit-transform:scale(1.2); 	/* Transformation pour Firefox */
+	transform: scale(1.2);			/* Transformation pour les autres navigateurs  */
+}
+
+.paddingImage{
+	padding:5px;
+}
+/*------------------------------------------------*/
+
+
+
+
+/*.logo{ /* Réglage des marges intérieures pour le logo */
+/*	padding: 10px ;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
